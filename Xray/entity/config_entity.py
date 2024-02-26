@@ -3,10 +3,7 @@ from dataclasses import dataclass
 
 from torch import device
 
-
 from Xray.constants.training_pipeline import *
-
-
 @dataclass
 class DataIngestionConfig:
     def __init__(self):

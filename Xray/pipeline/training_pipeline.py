@@ -6,13 +6,7 @@ from Xray.logger import logging
 from Xray.entity.artifact_entity import DataIngestionArtifact
 
 
-from Xray.entity.config_entity import (
-    DataIngestionConfig,
-    DataTransformationConfig,
-    ModelTrainerConfig,
-    ModelEvaluationConfig,
-    ModelPusherConfig
-)
+from Xray.entity.config_entity import DataIngestionConfig
 
 class TrainPipeline:
     def __init__(self):
